@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: left;
+    margin-top: 8px;
+    font-size: 24px;
+
+}
+
+
+.navbar>a {
+    text-decoration: none;
+    margin-right: 16px;
+    color: aliceblue;
+    top: 0;
+}
+
+#wholebody {
+    background-color: black;
+    border: 12px solid black;
+    margin: 2px;
+    padding: 2em;
+
+}
+
+p {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 64px;
+    margin-left:6em;
+    margin-top: 2em;
+
+}
+
+.verticalline {
+    color: rgb(248, 248, 253);
+    width: 2px; 
+    height: 30em;
+    border: 1px solid white;
+    margin-left: 20em;
+    display: inline-block;
+
+    
+
+}
