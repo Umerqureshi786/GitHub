@@ -132,9 +132,9 @@ h1 {
 
 }
 
-.trial:hover{
+.trial:hover {
     cursor: pointer;
-    box-shadow:white 0 0 0 2px inset;
+    box-shadow: white 0 0 0 2px inset;
     /* border: 1px solid rgb(254, 253, 255); */
     /* transition:0.5s ease-in-out; */
 }
@@ -271,7 +271,7 @@ h4 {
 
 
 
-.gitnumber >img {
+.gitnumber>img {
     /* background-color: white; */
     height: 42rem;
     margin-left: 18rem;
@@ -281,32 +281,34 @@ h4 {
 
 
 
-div.copilot{
+div.copilot {
     /* background-color: #970950; */
     width: 42rem;
     font-family: sans-serif;
-    font-weight:lighter;
+    font-weight: lighter;
     margin-left: 26rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
     font-size: 32px;
+
+
 }
 
-div.copilot >p{
+div.copilot>p {
     color: rgb(179, 182, 184);
-    
+
 
 }
 
 
 
-div.copilotlink{
-    margin-top: 2rem;
+div.copilotlink {
+    margin-top: 4rem;
 
 }
 
 
 
-.copilotlink > a{
+.copilotlink>a {
     /* background-color: #4af058; */
     text-decoration: none;
     color: aliceblue;
@@ -317,15 +319,85 @@ div.copilotlink{
 
 }
 
-.copilotlink :hover{
+.copilotlink :hover {
     text-decoration: underline;
     /* transition: 1s ease-out; */
 }
 
 
-div.sidebarimg > img{
+div.sidebarimg>img {
     height: 32rem;
     border-radius: 16px;
     margin-left: 70rem;
     margin-top: -64rem;
 }
+
+div.did {
+    /* background-color: #4af058; */
+    border: 2px solid green;
+    width: 8rem;
+    height: 1.5rem;
+    border-radius: 16px;
+    margin-left: 26rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+div.did>p {
+    color: #15b323;
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+div.increase {
+    font-size: 64px;
+    font-family: sans-serif;
+    margin-left: 26rem;
+    margin-top: 1rem;
+
+}
+
+div.increase>p {
+    color: #15b323;
+    /* font-weight: bold; */
+}
+
+div.developerproductivity {
+    font-family: sans-serif;
+    margin-left: 26rem;
+    font-size: 26px;
+
+}
+
+
+
+div.Readreport {
+    margin-top: 2rem;
+
+}
+
+.Readreport>a {
+    /* background-color: #4af058; */
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 26rem;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.Readreport :hover {
+    text-decoration: underline;
+    /* transition: 1s ease-out; */
+}
+
+/* div.conatiner{
+    border: 2px solid white;
+} */
