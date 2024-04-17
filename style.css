@@ -402,7 +402,7 @@ div.Readreport {
     border: 2px solid white;
 } */
 
-.containergithubaction{
+.containergithubaction {
     border: 0.5px solid rgb(80, 78, 78);
     background-color: rgba(48, 48, 48, 0.247);
     height: 28rem;
@@ -411,21 +411,21 @@ div.Readreport {
     margin-top: 6rem;
     border-radius: 12px;
     display: flex;
-    
+
 }
 
-.containergithubaction >p{
+.containergithubaction>p {
     margin-top: 4rem;
     margin-left: 4rem;
     font-family: sans-serif;
     font-size: 24px;
 }
 
-.containergithubaction >img{
+.containergithubaction>img {
     margin-left: 20rem;
 }
 
-.githubactions{
+.githubactions {
     /* width: 64px; */
     /* height: 10px; */
     /* border: 1px solid wheat; */
@@ -439,7 +439,7 @@ div.Readreport {
 
 
 
-.githubactions > a{
+.githubactions>a {
     text-decoration: none;
     color: white;
     font-size: 22px;
@@ -453,7 +453,7 @@ div.Readreport {
 }
 
 
-.containergithubcodespaces{
+.containergithubcodespaces {
     border: 1px solid rgb(252, 250, 248);
     height: 54rem;
     width: 55%;
@@ -466,7 +466,7 @@ div.Readreport {
 
 }
 
-div.containergithubcodespaces > p{
+div.containergithubcodespaces>p {
     margin-top: 4rem;
     margin-left: 4rem;
     font-family: sans-serif;
@@ -476,7 +476,7 @@ div.containergithubcodespaces > p{
 }
 
 
-div.containergithubcodespaces >a{
+div.containergithubcodespaces>a {
     text-decoration: none;
     color: white;
     margin-left: 4rem;
@@ -488,7 +488,7 @@ div.containergithubcodespaces >a{
     font-weight: bold;
 }
 
-.containergithubcodespaces >img{
+.containergithubcodespaces>img {
     width: 40rem;
     margin-top: 24.5rem;
     margin-left: -3.5rem;
@@ -498,7 +498,7 @@ div.containergithubcodespaces >a{
 
 
 
-.containerGitHubMobile{
+.containerGitHubMobile {
     border: 1px solid rgb(252, 250, 248);
     height: 54rem;
     width: 55%;
@@ -511,7 +511,7 @@ div.containergithubcodespaces >a{
 
 }
 
-div.containerGitHubMobile > p{
+div.containerGitHubMobile>p {
     margin-top: 4rem;
     margin-left: 4rem;
     font-family: sans-serif;
@@ -521,7 +521,7 @@ div.containerGitHubMobile > p{
 }
 
 
-div.containerGitHubMobile >a{
+div.containerGitHubMobile>a {
     text-decoration: none;
     color: white;
     margin-left: 4rem;
@@ -533,7 +533,7 @@ div.containerGitHubMobile >a{
     font-weight: bold;
 }
 
-.containerGitHubMobile >img{
+.containerGitHubMobile>img {
     width: 40rem;
     margin-top: 28.5rem;
     margin-left: -1rem;
@@ -542,13 +542,162 @@ div.containerGitHubMobile >a{
 }
 
 
-div.parent{
+div.parent {
     /* border: 1px solid white; */
     margin-top: 2rem;
     display: flex;
-    
+
 }
 
-div.containerGitHubMobile{
+div.containerGitHubMobile {
     margin-right: 12rem;
+}
+
+
+
+div.largeimage >img{
+    width: 100%;
+    margin-top: 24rem;
+}
+
+
+
+
+div.containerfooter{
+display: flex;
+position: relative;
+}
+
+
+
+footer {
+    background-color: black;
+}
+
+
+div.footerone {
+    background-color: black;
+    /* border: 1px solid rgb(150, 148, 148); */
+    width: 100px;
+    display: flex;
+    margin-left: 40rem;
+    height: 24rem;
+    align-items: flex-end;
+
+
+}
+
+div.footerone ul>li>a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    line-height: 2.2;
+    font-family: sans-serif;
+    font-size:15px ;
+
+}
+
+
+div.footerone ul>li>a:hover{
+    text-decoration: underline;
+    color: rgba(66, 142, 243, 0.856);
+}
+
+
+
+
+
+
+div.footertwo {
+    background-color: black;
+    /* border: 1px solid rgb(150, 148, 148); */
+    width: 100px;
+    display: flex;
+    margin-left: 10rem;
+    height: 14rem;
+    align-items: flex-end;
+    
+
+
+}
+
+div.footertwo ul>li>a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    line-height: 2.2;
+    font-family: sans-serif;
+    font-size:15px ;
+
+}
+
+
+div.footertwo ul>li>a:hover{
+    text-decoration: underline;
+    color: rgba(66, 142, 243, 0.856);
+}
+
+
+
+
+
+
+div.footerthree {
+    background-color: black;
+    /* border: 1px solid rgb(150, 148, 148); */
+    width: 100px;
+    display: flex;
+    margin-left: 10rem;
+    height: 14rem;
+    align-items: flex-end;
+    margin-top: 8rem;
+    
+
+
+}
+
+div.footerthree ul>li>a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    line-height: 2.2;
+    font-family: sans-serif;
+    font-size:15px ;
+
+}
+
+
+div.footerthree ul>li>a:hover{
+    text-decoration: underline;
+    color: rgba(66, 142, 243, 0.856);
+}
+
+
+
+
+
+div.footerfour {
+    background-color: black;
+    /* border: 1px solid rgb(150, 148, 148); */
+    width: 100px;
+    display: flex;
+    margin-left: 10rem;
+    height: 14rem;
+    align-items: flex-end;
+    margin-top: 12rem;
+    
+
+
+}
+
+div.footerfour ul>li>a {
+    color: rgb(139, 139, 139);
+    text-decoration: none;
+    line-height: 2.2;
+    font-family: sans-serif;
+    font-size:15px ;
+
+}
+
+
+div.footerfour ul>li>a:hover{
+    text-decoration: underline;
+    color: rgba(66, 142, 243, 0.856);
 }
