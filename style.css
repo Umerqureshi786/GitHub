@@ -555,17 +555,69 @@ div.containerGitHubMobile {
 
 
 
-div.largeimage >img{
-    width: 100%;
-    margin-top: 24rem;
+div.largeimage>img {
+    width: 75%;
+    margin-top: 12rem;
+    margin-left: 14rem;
+}
+
+
+
+.randeringengine>img {
+    width: 36rem;
+    height: 30rem;
+    margin-left: 64rem;
+    margin-top: -14rem;
+    border-radius: 12px;
+}
+
+
+div.hundredmillion {
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: bolder;
+    margin-left: 20rem;
+    line-height: 50px;
+    margin-top: 6rem;
+    padding: 16px;
 }
 
 
 
 
-div.containerfooter{
-display: flex;
-position: relative;
+div.paragraph {
+    margin-top: 2rem;
+    margin-left: 21.5rem;
+    font-family: sans-serif;
+}
+
+
+div.paragraph>p {
+    color: rgb(151, 151, 151);
+    font-size: 20px;
+}
+
+.wrappercopy {
+    display: flex;
+    margin-top:6rem;
+
+}
+
+.globeimage{
+    margin-left: 28rem;
+    margin-top: 10rem;
+    
+}
+
+
+
+
+
+
+div.containerfooter {
+    display: flex;
+    position: relative;
+    
 }
 
 
@@ -592,12 +644,12 @@ div.footerone ul>li>a {
     text-decoration: none;
     line-height: 2.2;
     font-family: sans-serif;
-    font-size:15px ;
+    font-size: 15px;
 
 }
 
 
-div.footerone ul>li>a:hover{
+div.footerone ul>li>a:hover {
     text-decoration: underline;
     color: rgba(66, 142, 243, 0.856);
 }
@@ -615,7 +667,7 @@ div.footertwo {
     margin-left: 10rem;
     height: 14rem;
     align-items: flex-end;
-    
+
 
 
 }
@@ -625,12 +677,12 @@ div.footertwo ul>li>a {
     text-decoration: none;
     line-height: 2.2;
     font-family: sans-serif;
-    font-size:15px ;
+    font-size: 15px;
 
 }
 
 
-div.footertwo ul>li>a:hover{
+div.footertwo ul>li>a:hover {
     text-decoration: underline;
     color: rgba(66, 142, 243, 0.856);
 }
@@ -649,7 +701,7 @@ div.footerthree {
     height: 14rem;
     align-items: flex-end;
     margin-top: 8rem;
-    
+
 
 
 }
@@ -659,12 +711,12 @@ div.footerthree ul>li>a {
     text-decoration: none;
     line-height: 2.2;
     font-family: sans-serif;
-    font-size:15px ;
+    font-size: 15px;
 
 }
 
 
-div.footerthree ul>li>a:hover{
+div.footerthree ul>li>a:hover {
     text-decoration: underline;
     color: rgba(66, 142, 243, 0.856);
 }
@@ -682,7 +734,7 @@ div.footerfour {
     height: 14rem;
     align-items: flex-end;
     margin-top: 12rem;
-    
+
 
 
 }
@@ -692,12 +744,21 @@ div.footerfour ul>li>a {
     text-decoration: none;
     line-height: 2.2;
     font-family: sans-serif;
-    font-size:15px ;
+    font-size: 15px;
 
 }
 
 
-div.footerfour ul>li>a:hover{
+div.footerfour ul>li>a:hover {
     text-decoration: underline;
     color: rgba(66, 142, 243, 0.856);
+}
+
+
+
+
+.wrappercopy {
+    display: flex;
+    margin-top:6rem;
+
 }
