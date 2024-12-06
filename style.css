@@ -604,12 +604,15 @@ div.paragraph>p {
 }
 
 .globeimage{
-    margin-left: 28rem;
-    margin-top: 10rem;
+    margin-left: 12rem;
+    margin-top: 12rem;
+    /* width: 120rem; */
     
 }
 
-
+.globalimage{
+    width: 84rem;
+}
 
 
 
